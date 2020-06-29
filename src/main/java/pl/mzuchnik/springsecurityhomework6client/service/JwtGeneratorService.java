@@ -1,8 +1,9 @@
-package pl.mzuchnik.springsecurityhomework6client;
+package pl.mzuchnik.springsecurityhomework6client.service;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import org.springframework.stereotype.Service;
+import pl.mzuchnik.springsecurityhomework6client.utils.RSAKeyUtil;
 
 import java.security.PrivateKey;
 import java.security.PublicKey;

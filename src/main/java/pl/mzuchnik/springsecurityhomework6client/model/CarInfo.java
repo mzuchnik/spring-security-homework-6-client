@@ -1,4 +1,4 @@
-package pl.mzuchnik.springsecurityhomework6client;
+package pl.mzuchnik.springsecurityhomework6client.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
@@ -10,8 +10,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
+import pl.mzuchnik.springsecurityhomework6client.service.JwtGeneratorService;
+import pl.mzuchnik.springsecurityhomework6client.utils.RSAKeyUtil;
 
-import java.security.PublicKey;
 import java.security.interfaces.RSAPublicKey;
 import java.util.Base64;
 

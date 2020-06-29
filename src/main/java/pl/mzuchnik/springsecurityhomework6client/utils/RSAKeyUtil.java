@@ -1,4 +1,4 @@
-package pl.mzuchnik.springsecurityhomework6client;
+package pl.mzuchnik.springsecurityhomework6client.utils;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
